@@ -1,10 +1,13 @@
-body {
-    margin: 0;
-    overflow: hidden;
-    background: skyblue;
+html,body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background:#70c5ce;
+    touch-action:none;
 }
 
-canvas {
-    display: block;
-    margin: auto;
+canvas{
+    display:block;
+    width:100vw;
+    height:100vh;
 }
